@@ -15,7 +15,7 @@ function App() {
     <>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">Voting Dojo</h1>
+          <h1 className="display-4">Don’t Be a Loser, Be a Chooser!</h1>
         </div>
       </div>
       <div className="App">
