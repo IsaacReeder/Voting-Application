@@ -1,7 +1,7 @@
 "use strict";
 
-var utils = require("utils");
-var utils = require("utils");
+var utils = require("../utils/writer");
+var Poll = require("../service/poll.service");
 
 module.exports.addPoll = function addPoll(req, res, next) {
   const body = req.body;
