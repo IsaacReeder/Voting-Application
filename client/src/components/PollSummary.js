@@ -27,7 +27,11 @@ export default (props) => {
         <div className="col-md-8">
           <div className="card-body">
             <h5 className="card-title">
-              <a href onClick={(e) => props.setPage(["vote", { poll }])}>
+              <a
+                href
+                onClick={(e) => props.setPage(["vote", { poll }])}
+                style={{ cursor: "pointer" }}
+              >
                 {poll.question}
               </a>
             </h5>
@@ -40,7 +44,7 @@ export default (props) => {
                 );
                 return (
                   <span key={index}>
-                    {item}: {count} votes.{" "}
+                    {item}: {count} votes.
                   </span>
                 );
               })}

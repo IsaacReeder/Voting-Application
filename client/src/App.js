@@ -13,9 +13,14 @@ function App() {
 
   return (
     <>
-      <div className="jumbotron jumbotron-fluid">
+      <div
+        className="jumbotron jumbotron-fluid"
+        style={{ backgroundColor: " rgb(90, 88, 88)" }}
+      >
         <div className="container">
-          <h1 className="display-4">Don’t Be a Loser, Be a Chooser!</h1>
+          <h1 className="display-4" style={{ color: "rgb(199, 241, 239)" }}>
+            Don’t Be a Loser, Be a Chooser!
+          </h1>
         </div>
       </div>
       <div className="App">
